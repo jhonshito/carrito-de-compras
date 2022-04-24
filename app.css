@@ -1,0 +1,15 @@
+
+body {
+    background-color: cornsilk;
+}
+
+.text-center {
+    font-family: 'Oswald', sans-serif;
+    font-size: 60px;
+}
+
+.fondo-blanco{
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+    color: rgb(24, 24, 216);
+}

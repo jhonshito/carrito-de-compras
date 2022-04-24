@@ -1,0 +1,97 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>you carrito</title>
+    <!-- BOOTSTRAP-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="app.css">
+</head>
+<body>
+
+    <div class="container mt-5">
+
+        <h1 class="text-center mb-5">panaderia pan y más pan</h1>
+        <div class="row">
+
+            <div class="col-12 col-sm-4">
+                <div class="card" style="width: 18rem;">
+                    <img src="https://www.recetasderechupete.com/wp-content/uploads/2018/08/Pan-de-molde-768x527.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Pan Aliñado</h5>
+                      <p class="lead">$100</p>
+                      <button class="btn btn-dark" data-pan="Pan Aliñado" data-precio="100">Comprar</button>
+                    </div>
+                  </div>
+            </div>
+
+            <div class="col-12 col-sm-4">
+                <div class="card" style="width: 18rem;">
+                    <img src="https://imagenes.elpais.com/resizer/-dah7j1N-8AWLvtnrGekasvyfKc=/1200x0/cloudfront-eu-central-1.images.arcpublishing.com/prisa/OFWP7NQN6TRH5ZN6UBVL2RN3LI.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Pan Integral</h5>
+                      <p class="lead">$200</p>
+                      <button class="btn btn-dark" data-pan="Pan Integral" data-precio="200">Comprar</button>
+                    </div>
+                  </div>
+            </div>
+
+            <div class="col-12 col-sm-4">
+                <div class="card" style="width: 18rem;">
+                    <img src="https://s.cornershopapp.com/product-images/2192582.jpg?versionId=v.DTRvpdKDt.yLbkURQo9ZMFiKb0A1ha" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Pan Agridulce</h5>
+                      <p class="lead">$300</p>
+                      <button class="btn btn-dark" data-pan="Pan Agridulce" data-precio="300">Comprar</button>
+                    </div>
+                  </div>
+            </div>
+        </div>
+    </div>
+
+    
+    <template id="template">
+        <li class="list-group-item bg-dark d-flex justify-content-between align-items-center text-white">
+            <span class="lead align-middle">dsfs</span>
+            <span class="badge bg-danger rounded-pill align-middle">14</span>
+        </li>
+
+        <li class="list-group-item d-flex justify-content-between align-items-center">
+            <div>
+                <p class="lead mb-0">Total $<span>100</span></p>
+            </div>
+
+            <div>
+                <button class="btn btn-danger">Quitar</button>
+                <button class="btn btn-success">Agregar</button>
+            </div>
+        </li>
+    </template>
+    
+    <div class="container mt-2 mb-1">
+        <ul class="list-group" id="carrito">
+            
+        </ul>
+    </div>
+    
+    
+    
+        <footer id="footer" class="container mt-4">
+            <template id="templateFooter">
+                
+                <div class="card">
+                    <div class="card-body d-flex justify-content-between aling-items-center">
+                        <p class="lead mb-0">Total $<span>1500</span></p>
+                        <button class="btn btn-danger" onclick="location.href='file:///home/jhon/Desktop/carrito/indes.html'">Finalizar compra</button>
+                    </div>
+                </div>
+
+            </template>
+        </footer>
+    
+    <script src="app.js"></script>
+</body>
+</html>
