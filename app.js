@@ -72,15 +72,3 @@ let pintar = () => {
     carrito.appendChild(fragment);
 }
 
-let btnAumentar = (e) => {
-    console.log('me diste click ', e.target.dataset.id)
-
-    // contenidoCarrito = contenidoCarrito.map((item) => {
-
-    //     if(item.id === e.target.dataset.id) {
-    //         item.cantidad ++
-    //     }
-    //     return item;
-    // })
-    // pintar();
-}
